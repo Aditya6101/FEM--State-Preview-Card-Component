@@ -101,6 +101,17 @@ body {
   letter-spacing: 0.1em;
 }
 
+.attribution {
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--white-s);
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--soft-violet);
+}
+
 @media (min-width: 768px) {
   .card {
     flex-direction: row;
